@@ -15,18 +15,15 @@ compare-diff -f1 "File1.txt" -f2 "File2.txt" -notime
 ```
 ### count-files
 
-```markdown
-## count-files
-
 Counts and groups files by their extensions in the current directory and its subdirectories. It can exclude files in node_modules unless specified.
 
 ### Parameters
-- **$includenode**: Switch to include files in node_modules.
+- `$includenode`: Switch to include files in node_modules.
 
 ### Example Usage
 ```powershell
 count-files -includenode
-
+```
 ### neovim
 
 ```markdown
