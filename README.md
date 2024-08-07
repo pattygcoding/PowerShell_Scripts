@@ -12,7 +12,7 @@ Compares two files line by line and highlights the differences. It can also igno
 ### Example Usage
 ```powershell
 compare-diff -f1 "File1.txt" -f2 "File2.txt" -notime
-
+```powershell
 ### count-files
 
 ```markdown
