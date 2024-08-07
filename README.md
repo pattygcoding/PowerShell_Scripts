@@ -88,7 +88,7 @@ Fetches the latest changes from the remote repository and merges them into the c
 ### Example Usage
 ```powershell
 update-git
-
+```
 ### vs
 
 Searches for a file by name in the current directory and its subdirectories, then opens it in Visual Studio.
