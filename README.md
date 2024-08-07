@@ -80,9 +80,6 @@ search-match -e ".cs" -s "SearchTerm1", "SearchTerm2" -cross -dir
 ```
 ### update-git
 
-```markdown
-## update-git
-
 Fetches the latest changes from the remote repository and merges them into the current branch. Can specify a branch to merge from.
 
 ### Parameters
