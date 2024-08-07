@@ -9,7 +9,7 @@
 - `$f2`: Second file to compare (default: "TestFile2.txt").
 - `$notime`: Switch to ignore timestamps in the comparison.
 
-**Example Usage:**
+### Example Usage
 ```powershell
 compare-diff -f1 "File1.txt" -f2 "File2.txt" -notime
 
