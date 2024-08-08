@@ -1,4 +1,4 @@
-## Compare Diff
+# Compare Diff
 
 Compares two files line by line and highlights the differences. It can also ignore timestamps if specified.
 
