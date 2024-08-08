@@ -1,4 +1,14 @@
-# PowerShell Scripts
+# PowerShell Scripts by Patrick Goodwin
+
+## Table of Contents
+- [compare-diff](##compare-diff)
+- [count-files](#count-files)
+- [neovim](##neovim)
+- [regvim](##regvim)
+- [update-git](##update-git)
+- [vs](##vs)
+- [vsc](##vsc)
+    
 
 ## compare-diff
 
