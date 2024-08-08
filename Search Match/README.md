@@ -12,5 +12,5 @@ Searches for files with a specific extension containing specified strings. It ca
 
 ### Example Usage
 ```powershell
-search-match -e ".cs" -s "SearchTerm1", "SearchTerm2" -cross -dir
+search-match -e ".php" -s "SearchTerm1", "SearchTerm2" -cross -dir
 ```
