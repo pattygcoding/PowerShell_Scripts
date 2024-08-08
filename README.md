@@ -4,6 +4,7 @@
 - [Compare Diff](#compare-diff)
 - [Count Files](#count-files)
 - [Neovim](#neovim)
+- [Random Password](#random-password)
 - [Regvim](#regvim)
 - [Search Match](#search-match)
 - [Update Git](#update-git)
