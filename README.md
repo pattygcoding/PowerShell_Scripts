@@ -78,7 +78,7 @@ search-match -e ".cs" -s "SearchTerm1", "SearchTerm2" -cross -dir
 Fetches the latest changes from the remote repository and merges them into the current branch. Can specify a branch to merge from.
 
 ### Parameters
-- **$branch**: The branch to merge into the current branch (default: "master").
+- `-branch`: The branch to merge into the current branch (default: "master").
 
 ### Example Usage
 ```powershell
