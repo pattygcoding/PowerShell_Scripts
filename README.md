@@ -1,17 +1,17 @@
 # PowerShell Scripts by Patrick Goodwin
 
 ## Table of Contents
-- [compare-diff](#compare-diff)
-- [count-files](#count-files)
-- [neovim](#neovim)
-- [regvim](#regvim)
-- [search-match](#search-match)
-- [update-git](#update-git)
-- [vs](#vs)
-- [vsc](#vsc)
+- [Compare Diff](#compare-diff)
+- [Count Files](#count-files)
+- [Neovim](#neovim)
+- [Regvim](#regvim)
+- [Search Match](#search-match)
+- [Update Git](#update-git)
+- [Vs](#vs)
+- [Vsc](#vsc)
     
 
-## compare-diff
+## Compare Diff
 
 Compares two files line by line and highlights the differences. It can also ignore timestamps if specified.
 
@@ -24,7 +24,7 @@ Compares two files line by line and highlights the differences. It can also igno
 ```powershell
 compare-diff -f1 "File1.txt" -f2 "File2.txt" -notime
 ```
-## count-files
+## Count Files
 
 Counts and groups files by their extensions in the current directory and its subdirectories. It can exclude files in node_modules unless specified.
 
@@ -35,7 +35,7 @@ Counts and groups files by their extensions in the current directory and its sub
 ```powershell
 count-files -includenode
 ```
-## neovim
+## Neovim
 
 Searches for a specified file in the current directory and its subdirectories, then opens it in Neovim.
 
@@ -46,7 +46,7 @@ Searches for a specified file in the current directory and its subdirectories, t
 ```powershell
 neovim -f "example.txt"
 ```
-## regvim
+## Regvim
 
 Searches for a specified file in the current directory and its subdirectories, then opens it in Vim.
 
@@ -57,7 +57,7 @@ Searches for a specified file in the current directory and its subdirectories, t
 ```powershell
 regvim -f "example.txt"
 ```
-## search-match
+## Search Match
 
 Searches for files with a specific extension containing specified strings. It can limit results, perform cross-term searches, display full directories, and filter for method calls.
 
@@ -73,7 +73,7 @@ Searches for files with a specific extension containing specified strings. It ca
 ```powershell
 search-match -e ".cs" -s "SearchTerm1", "SearchTerm2" -cross -dir
 ```
-## update-git
+## Update Git
 
 Fetches the latest changes from the remote repository and merges them into the current branch. Can specify a branch to merge from.
 
@@ -84,8 +84,7 @@ Fetches the latest changes from the remote repository and merges them into the c
 ```powershell
 update-git
 ```
-## vs
-
+## Vs
 Searches for a file by name in the current directory and its subdirectories, then opens it in Visual Studio.
 
 ### Parameters
@@ -95,8 +94,7 @@ Searches for a file by name in the current directory and its subdirectories, the
 ```powershell
 vs -f "example.cs"
 ```
-## vsc
-
+## Vsc
 Searches for a file by name in the current directory and its subdirectories, then opens it in Visual Studio Code.
 
 ### Parameters
