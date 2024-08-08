@@ -7,5 +7,5 @@ Fetches the latest changes from the remote repository and merges them into the c
 
 ### Example Usage
 ```powershell
-update-git
+update-git -branch "main"
 ```
