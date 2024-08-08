@@ -9,6 +9,7 @@
 - [Regvim](#regvim)
 - [Search Match](#search-match)
 - [Update Git](#update-git)
+- [Time](#time)
 - [Vs](#vs)
 - [Vsc](#vsc)
     
@@ -90,6 +91,16 @@ Searches for files with a specific extension containing specified strings. It ca
 ### Example Usage
 ```
 search-match -e ".cs" -s "SearchTerm1", "SearchTerm2" -cross -dir
+```
+## Time
+Outputs the time of any operation.
+
+### Parameters
+- `-f`: The operation to measure
+
+### Example Usage
+```
+time -f { Write-Output "Hello World" }
 ```
 ## Update Git
 Fetches the latest changes from the remote repository and merges them into the current branch. Can specify a branch to merge from.
