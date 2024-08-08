@@ -2,6 +2,7 @@
 
 ## Table of Contents
 - [Compare Diff](#compare-diff)
+- [Connect Four](#connect-four)
 - [Count Files](#count-files)
 - [Neovim](#neovim)
 - [Random Password](#random-password)
@@ -23,6 +24,17 @@ Compares two files line by line and highlights the differences. It can also igno
 ### Example Usage
 ```
 compare-diff -f1 "File1.txt" -f2 "File2.txt" -notime
+```
+## Connect Four
+A fully functional Connect Four game, complete with color coded pieces and win checking.
+
+### Parameters
+- `-p1`: First player name (default: "Player 1").
+- `-p2`: Second player name (default: "Player 2").
+
+### Example Usage
+```
+connect-four -p1 "Bob" -p2 "Ryan"
 ```
 ## Count Files
 Counts and groups files by their extensions in the current directory and its subdirectories. It can exclude files in node_modules unless specified.
