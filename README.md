@@ -12,7 +12,6 @@
     
 
 ## Compare Diff
-
 Compares two files line by line and highlights the differences. It can also ignore timestamps if specified.
 
 ### Parameters
@@ -21,44 +20,50 @@ Compares two files line by line and highlights the differences. It can also igno
 - `-notime`: Switch to ignore timestamps in the comparison.
 
 ### Example Usage
-```powershell
+```
 compare-diff -f1 "File1.txt" -f2 "File2.txt" -notime
 ```
 ## Count Files
-
 Counts and groups files by their extensions in the current directory and its subdirectories. It can exclude files in node_modules unless specified.
 
 ### Parameters
 - `-includenode`: Switch to include files in node_modules.
 
 ### Example Usage
-```powershell
+```
 count-files -includenode
 ```
 ## Neovim
-
 Searches for a specified file in the current directory and its subdirectories, then opens it in Neovim.
 
 ### Parameters
 - `-f`: The name of the file to search for (mandatory).
 
 ### Example Usage
-```powershell
+```
 neovim -f "example.txt"
 ```
-## Regvim
+## Random Password
+Prints a random password.
 
+### Parameters
+- `-l`: The maximum length of the password allowed (default: 12).
+
+### Example Usage
+```
+random-password
+```
+## Regvim
 Searches for a specified file in the current directory and its subdirectories, then opens it in Vim.
 
 ### Parameters
 - `-f`: The name of the file to search for (mandatory).
 
 ### Example Usage
-```powershell
+```
 regvim -f "example.txt"
 ```
 ## Search Match
-
 Searches for files with a specific extension containing specified strings. It can limit results, perform cross-term searches, display full directories, and filter for method calls.
 
 ### Parameters
@@ -70,18 +75,17 @@ Searches for files with a specific extension containing specified strings. It ca
 - `-calls`: Switch to filter for lines where the string is used as a method call.
 
 ### Example Usage
-```powershell
+```
 search-match -e ".cs" -s "SearchTerm1", "SearchTerm2" -cross -dir
 ```
 ## Update Git
-
 Fetches the latest changes from the remote repository and merges them into the current branch. Can specify a branch to merge from.
 
 ### Parameters
 - `-branch`: The branch to merge into the current branch (default: "master").
 
 ### Example Usage
-```powershell
+```
 update-git
 ```
 ## Vs
@@ -91,7 +95,7 @@ Searches for a file by name in the current directory and its subdirectories, the
 - `-f`: Name of the file to search for (mandatory).
 
 ### Example Usage
-```powershell
+```
 vs -f "example.cs"
 ```
 ## Vsc
@@ -101,6 +105,6 @@ Searches for a file by name in the current directory and its subdirectories, the
 - `-f`: Name of the file to search for (mandatory).
 
 ### Example Usage
-```powershell
+```
 vsc -f "example.js"
 ```
