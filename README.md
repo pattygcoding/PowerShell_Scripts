@@ -5,6 +5,7 @@
 - [count-files](#count-files)
 - [neovim](#neovim)
 - [regvim](#regvim)
+- [search-match](#search-match)
 - [update-git](#update-git)
 - [vs](#vs)
 - [vsc](#vsc)
