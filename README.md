@@ -4,6 +4,7 @@
 - [Compare Diff](#compare-diff)
 - [Connect Four](#connect-four)
 - [Count Files](#count-files)
+- [Dotnet Analysis](#dotnet-analysis)
 - [Neovim](#neovim)
 - [Random Password](#random-password)
 - [Regvim](#regvim)
@@ -46,6 +47,16 @@ Counts and groups files by their extensions in the current directory and its sub
 ### Example Usage
 ```
 count-files -includenode
+```
+## Dotnet Analysis
+Analyzes dotnet backend output on the terminal and sorts outputs to find specific calls to APIs and methods.
+
+### Parameters
+- `-f`: File to read (default: "TestFile1.txt").
+
+### Example Usage
+```
+dotnet-analysis -f "file.txt"
 ```
 ## Neovim
 Searches for a specified file in the current directory and its subdirectories, then opens it in Neovim.
