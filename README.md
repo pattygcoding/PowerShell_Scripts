@@ -18,6 +18,9 @@
 ## Compare Diff
 Compares two files line by line and highlights the differences. It can also ignore timestamps if specified.
 
+### Dependencies
+Must have 2 named .txt files in the same directory you are executing in (see parameters)
+
 ### Parameters
 - `-f1`: First file to compare (default: "TestFile1.txt").
 - `-f2`: Second file to compare (default: "TestFile2.txt").
@@ -51,6 +54,9 @@ count-files -includenode
 ## Dotnet Analysis
 Analyzes dotnet backend output on the terminal and sorts outputs to find specific calls to APIs and methods.
 
+### Dependencies
+Must have a named .txt files in the same directory you are executing in (see parameters)
+
 ### Parameters
 - `-f`: File to read (default: "TestFile1.txt").
 
@@ -60,6 +66,9 @@ dotnet-analysis -f "file.txt"
 ```
 ## Neovim
 Searches for a specified file in the current directory and its subdirectories, then opens it in Neovim.
+
+### Dependencies
+Neovim (must have it in your PATH as an environment variable)
 
 ### Parameters
 - `-f`: The name of the file to search for (mandatory).
@@ -91,6 +100,9 @@ regvim -f "example.txt"
 ## Search Match
 Searches for files with a specific extension containing specified strings. It can limit results, perform cross-term searches, display full directories, and filter for method calls.
 
+### Dependencies
+Vim (must have it in your PATH as an environment variable)
+
 ### Parameters
 - `-e`: File extension to search for.
 - `-s`: Array of strings to search for within the files.
@@ -116,6 +128,9 @@ time -f { Write-Output "Hello World" }
 ## Update Git
 Fetches the latest changes from the remote repository and merges them into the current branch. Can specify a branch to merge from.
 
+### Dependencies
+Git
+
 ### Parameters
 - `-branch`: The branch to merge into the current branch (default: "master").
 
@@ -126,6 +141,9 @@ update-git
 ## Vs
 Searches for a file by name in the current directory and its subdirectories, then opens it in Visual Studio.
 
+### Dependencies
+Visual Studio (must have it in your PATH as an environment variable)
+
 ### Parameters
 - `-f`: Name of the file to search for (mandatory).
 
@@ -135,6 +153,9 @@ vs -f "example.cs"
 ```
 ## Vsc
 Searches for a file by name in the current directory and its subdirectories, then opens it in Visual Studio Code.
+
+### Dependencies
+Visual Studio Code (must have it in your PATH as an environment variable)
 
 ### Parameters
 - `-f`: Name of the file to search for (mandatory).
