@@ -1,6 +1,8 @@
 ## Compare Diff
-
 Compares two files line by line and highlights the differences. It can also ignore timestamps if specified.
+
+### Dependencies
+Must have 2 named .txt files in the same directory you are executing in (see parameters)
 
 ### Parameters
 - `-f1`: First file to compare (default: "TestFile1.txt").
