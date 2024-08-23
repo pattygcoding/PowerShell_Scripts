@@ -2,12 +2,12 @@ function gensql-count {
 	[CmdletBinding()]
 	param (
         [Parameter(Mandatory=$true)]
-        [string]$db
+        [string]$t
     )
 	
 	$script = @"
 SELECT COUNT(*) AS total_entries
-FROM $db;
+FROM $t;
 
 "@
 
