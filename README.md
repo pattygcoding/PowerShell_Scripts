@@ -6,6 +6,7 @@
 - [Count Files](#count-files)
 - [Dotnet Analysis](#dotnet-analysis)
 - [Gensql Col](#gensql-col)
+- [Gensql Count](#gensql-count)
 - [Ip](#ip)
 - [Neovim](#neovim)
 - [Random Password](#random-password)
@@ -76,6 +77,17 @@ Generates a SQL script that you can use to search for all instances in your DB o
 ### Example usage:
 ```
 gensql-col -c "NewId"
+```
+
+## Gensql Count
+Generates a SQL script that you can use to count the number of entries in a given table
+
+### Parameters:
+`-t`: The name of the table
+
+### Example usage:
+```
+gensql-count -c "[db].[Table]"
 ```
 
 ## Ip
