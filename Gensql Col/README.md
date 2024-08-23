@@ -6,5 +6,5 @@ Generates a SQL script that you can use to search for all instances in your DB o
 
 ## Example usage:
 ```
-gensql-count -c "Id"
+gensql-col -c "%NewId%"
 ```
