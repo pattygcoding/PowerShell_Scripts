@@ -5,6 +5,7 @@
 - [Connect Four](#connect-four)
 - [Count Files](#count-files)
 - [Dotnet Analysis](#dotnet-analysis)
+- [Ip](#ip)
 - [Neovim](#neovim)
 - [Random Password](#random-password)
 - [Regvim](#regvim)
@@ -64,6 +65,14 @@ Must have a named .txt files in the same directory you are executing in (see par
 ```
 dotnet-analysis -f "file.txt"
 ```
+## Ip
+Returns your IP address on demand.
+
+### Example Usage
+```
+ip
+```
+
 ## Neovim
 Searches for a specified file in the current directory and its subdirectories, then opens it in Neovim.
 
