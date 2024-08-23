@@ -5,6 +5,7 @@
 - [Connect Four](#connect-four)
 - [Count Files](#count-files)
 - [Dotnet Analysis](#dotnet-analysis)
+- [Gensql Count](#gensql-count)
 - [Ip](#ip)
 - [Neovim](#neovim)
 - [Random Password](#random-password)
@@ -65,6 +66,18 @@ Must have a named .txt files in the same directory you are executing in (see par
 ```
 dotnet-analysis -f "file.txt"
 ```
+
+## Gensql Count
+Generates a SQL script that you can use to search for all instances in your DB of that column name
+
+### Parameters:
+`-c`: The name of the column to search
+
+### Example usage:
+```
+gensql-count -c "Id"
+```
+
 ## Ip
 Returns your IP address on demand.
 
