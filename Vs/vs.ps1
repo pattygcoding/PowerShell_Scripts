@@ -14,7 +14,7 @@ function vs {
         return
     }
     foreach ($file in $files) {
-        Write-Host("PowerShell (vs): Opening file in VS Code: $file") -ForegroundColor Yellow
+        Write-Host("PowerShell (vs): Opening file in Visual Studio: $file") -ForegroundColor Yellow
         & "devenv.exe" /Edit $file
     }
 }
