@@ -1,4 +1,4 @@
-# Gensql Count
+# Gensql Col
 Generates a SQL script that you can use to search for all instances in your DB of that column name
 
 ## Parameters:
